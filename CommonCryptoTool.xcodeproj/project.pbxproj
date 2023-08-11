@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		386563842A86B05500E71BA0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386563832A86B05500E71BA0 /* main.swift */; };
+		3865638B2A86B09100E71BA0 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865638A2A86B09100E71BA0 /* Encryption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		386563802A86B05500E71BA0 /* CommonCryptoTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonCryptoTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		386563832A86B05500E71BA0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3865638A2A86B09100E71BA0 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		386563822A86B05500E71BA0 /* CommonCryptoTool */ = {
 			isa = PBXGroup;
 			children = (
+				3865638A2A86B09100E71BA0 /* Encryption.swift */,
 				386563832A86B05500E71BA0 /* main.swift */,
 			);
 			path = CommonCryptoTool;
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3865638B2A86B09100E71BA0 /* Encryption.swift in Sources */,
 				386563842A86B05500E71BA0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+print(Encryption.shared.encrypt(text: "hello test"))
+print(Encryption.shared.decrypt(text: "05GfJyqgr5EJA/Cx68tQmw=="))
 
